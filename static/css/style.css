@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&display=swap');
+body{
+    background-image: url(/static/bg-image.jpg);
+    background-size: contain;
+}
+.context{
+    margin: 3rem;
+    height: auto;
+    display: block;
+    justify-content: center;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+.navbar-brand{
+    font-size: 3rem;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 2px 2px rgb(58, 57, 1);
+}
+.ans_box{
+    display: none;
+    height: auto;
+    width: 95%;
+    margin-bottom: 10px;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid rgba(248, 232, 1, 0.527);
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    box-shadow: 1px chartreuse;
+    color: gold;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 1.3rem;
+    
+}
+
+.tbox{
+    border-radius: 10px;
+    border: 1px solid rgba(248, 232, 1, 0.527);
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    color: gold;
+}
+.btn{
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    margin-top: 8rem;
+    font-size: 1.5rem;
+    font-family: 'Frank Ruhl Libre', serif;
+    background-color: rgba(1, 6, 46, 0.561);
+    padding: 0.5rem;
+    color: whitesmoke;
+}
+
+.names{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
